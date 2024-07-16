@@ -16,7 +16,7 @@
 //     }
 
 //     // 保存图像为"fishesys_mask.jpg"
-//     if (cv::imwrite("fishesys_mask.jpg", mask))
+//     if (cv::imwrite("fisheye_mask.jpg", mask))
 //     {
 //         std::cout << "Image saved successfully!" << std::endl;
 //     }
@@ -49,7 +49,7 @@ int main()
 
     // 显示和保存结果图像
     cv::imshow("Fisheye Mask", mask);
-    cv::imwrite("fisheye_mask.png", mask);
+    cv::imwrite("fisheye_mask.jpg", mask);
     cv::waitKey(0);
 
     return 0;
